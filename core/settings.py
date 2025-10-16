@@ -33,8 +33,9 @@ DEBUG = os.getenv('DEBUG', 'False') == 'True'
 # DEBUG=True
 CORS_ALLOW_ALL_ORIGINS = True
 
-hosts = os.getenv('HOST', 'localhost,127.0.0.1').split(',')
-ALLOWED_HOSTS = hosts
+# hosts = os.getenv('HOST', 'localhost,127.0.0.1').split(',')
+# ALLOWED_HOSTS = hosts
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
